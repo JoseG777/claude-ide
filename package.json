@@ -1,0 +1,26 @@
+{
+  "name": "claude-ide",
+  "version": "1.0.0",
+  "description": "A simple claude ide extension that mirrors copilots inline edits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseG777/claude-ide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoseG777/claude-ide/issues"
+  },
+  "homepage": "https://github.com/JoseG777/claude-ide#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/vscode": "^1.140.0",
+    "typescript": "^7.0.2"
+  }
+}
