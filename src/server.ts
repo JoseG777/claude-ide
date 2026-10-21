@@ -15,5 +15,15 @@ export function startServer(log: (message: string) => void)
         }
     });
 
+    server.on("connection", (socket, req) => {
+        log(`Headers: ${JSON.stringify(req.headers)}`);
+        socket.on("message", (data) => {
+            log(`Received: ${data}`);
+        });
+        socket.on("close", () => {
+            log("Disconnected");
+        });
+    });
+
     return server;
 }
