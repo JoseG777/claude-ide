@@ -22,6 +22,7 @@
   "devDependencies": {
     "@types/node": "^26.6.5",
     "@types/vscode": "^1.140.0",
+    "@types/ws": "^8.18.2",
     "typescript": "^7.0.2"
   },
   "engines": {
@@ -30,5 +31,8 @@
   "activationEvents": [
     "onStartupFinished"
   ],
-  "publisher": "joseg777"
+  "publisher": "joseg777",
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
 }
