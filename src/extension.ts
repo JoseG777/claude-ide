@@ -1,6 +1,5 @@
 import * as vscode from "vscode";
 import { startServer } from "./server";
-// TODO A1: import startServer from "./server"
 
 export function activate(context: vscode.ExtensionContext)
 {
